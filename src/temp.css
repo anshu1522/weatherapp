@@ -1,0 +1,51 @@
+body{
+    background-color: blueviolet;
+    
+
+}
+.bodyy{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+.boxx{
+    height: 250px;
+    width: 250px;
+    background-color: rgb(110, 194, 194);
+    font-size: 20px;
+    display: flex;
+    margin: 100px;
+    flex-direction: column;
+    
+    
+}
+.input{
+margin:10px;
+padding: 20px;
+}
+.wave1 {
+    opacity: 0.3;
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    background: white;
+    width: 50rem;
+    height: 50rem;
+    margin-left: -25rem;
+    margin-top: -20rem;
+    border-radius: 43%;
+    animation: drift 3000ms infinite linear;
+    z-index:1;
+}
+
+@keyframes drift {
+    from {
+    transform: rotate(0deg);
+    }
+    to {
+    transform: rotate(360deg);
+    }
+}
+    
